@@ -10,7 +10,7 @@ function App() {
 axios.defaults.withCredentials = true;
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('https://test-backend-drab-iota.vercel.app/register', {name, email, password})
+    axios.post('https://test-backend-iwlbha0dt-malishubham025s-projects.vercel.app/register', {name, email, password})
     .then(result => console.log(result))
     .catch(err => console.log(err))
   }
